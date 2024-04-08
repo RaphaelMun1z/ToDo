@@ -1,0 +1,31 @@
+.header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #999;
+
+    div {
+        position: relative;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        align-items: center;
+        gap: 1em;
+
+        img {
+            color: #fff;
+            height: 50px;
+            width: fit-content;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: rgb(63, 180, 63);
+        }
+    }
+}

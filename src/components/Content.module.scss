@@ -1,0 +1,14 @@
+.main {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    border: 1px solid #999;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 10px;
+
+    p {
+        color: #fff;
+    }
+}
